@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Abhishek Bhardwaj" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Abhishek Bhardwaj</h1>
+
+          <p class="title">Software Developer</p>
+          <p class="title">Interdisciplinary Researcher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <!-- Email -->
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:abhishek02bhardwaj.er@gmail.com" class="contact-link">abhishek02bhardwaj.er.com</a>
+            </div>
+          </li>
+        
+          <!-- Location -->
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Cluster Innovation Centre, New Delhi, India</address>
+            </div>
+          </li>
+        
+          <!-- LinkedIn -->
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/abhishek-bhardwaj-821054241" class="contact-link">linkedin.com/in/abhishek-bhardwaj-821054241</a>
+            </div>
+          </li>
+        
+          <!-- GitHub -->
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+              <a href="https://github.com/Abhishek02bhardwaj" class="contact-link">github.com/Abhishek02bhardwaj</a>
+            </div>
+          </li>
+     
+        </ul>
+        
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Abhishek Bhardwaj, a final-year B.Tech student at the Cluster Innovation Centre, University of Delhi. 
+            
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+          
+            <!-- Web Development -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
+          
+            <!-- Mathematical Research
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="math research icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mathematical Research</h4>
+                <p class="service-item-text">
+                  Engaged in advanced mathematical research, developing solutions for real-world applications.
+                </p>
+              </div>
+            </li> -->
+          
+            <!-- Computational Biology Research -->
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="biology research icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computational Biology</h4>
+                <p class="service-item-text">
+                  Pursuing interdisciplinary research in computational biology, exploring innovative methods for biological data analysis.
+                </p>
+              </div>
+            </li>
+          
+            <!-- Masters Planning
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="graduate studies icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graduate Studies</h4>
+                <p class="service-item-text">
+                  Currently planning for a master’s degree to deepen expertise in AI, bioinformatics, and interdisciplinary sciences.
+                </p>
+              </div>
+            </li> -->
+          
+          </ul>
+          
+        </section>
+
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title"></h3>
+
+          <ul class="testimonials-list has-scrollbar">        
+          </ul>
+
+        </section>
+
+
+
+         <!-- - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+            
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/cic_logo.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Wiki.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/outreachy.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/USC.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+      
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+      
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Cluster Innovation Centre, University of Delhi</h4>
+              <span>November 2021 — July 2025</span>
+              <p class="timeline-text">
+                Bachelor of Technology (Information Technology and Mathematical Innovations), Minor in Management<br>
+                GPA: 9.31/10.00<br>
+                Key Courses: Data Structures and Algorithms, Prob Stat, Object Oriented Programming, Discrete Mathematics, Linear Algebra, Partial Differential Equations, Complex Analysis, AI and Machine Learning
+              </p>
+            </li>
+          </ol>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Jamia Milia Islamia</h4>
+              <span>July 2018 — June 2020</span>
+              <p class="timeline-text">
+                Majors: Physics, Chemistry, Mathematics, Computer Science, English<br>
+                GPA: 9.31/10.00<br>
+              </p>
+            </li>
+          </ol>
+      
+        </section>
+      
+        <section class="timeline">
+      
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
+      
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Full Stack Development Intern, Indraprastha Institute of Information Technology, Delhi</h4>
+              <span>January 2024 – Present</span>
+              <p class="timeline-text">
+                Developing <strong>Apna Mitra</strong>, a web application to simplify welfare schemes for Delhi citizens. Built reusable ReactJS components and intuitive UI. Fine-tuning XTTS models for vernacular Indian TTS and implementing RAG models for accurate LLM responses.<br>
+                <strong>Key Learnings:</strong> ReactJS, FastAPI, PostgreSQL, XTTS Models, RAG Models, UI/UX Design
+              </p>
+            </li>
+            
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Full Stack Freelance Developer, Schueco India</h4>
+              <span>November 2023 – Present</span>
+              <p class="timeline-text">
+                Developing a Weekly Planner Application automating 96,000+ monthly emails using AWS SES. Built responsive mobile UI with React Native and Expo. Developed secure scheduling workflows and optimized FastAPI backend with PostgreSQL on Amazon RDS.<br>
+                <strong>Key Learnings:</strong> React Native, FastAPI, PostgreSQL (Amazon RDS), AWS SES, CI/CD Pipelines
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Research Intern, Cluster Innovation Centre, University of Delhi</h4>
+              <span>March 2024 – September 2024</span>
+              <p class="timeline-text">
+                Conducted in-depth research on <strong>platform startup failures</strong> within the Indian business ecosystem, analyzing 75 startups using <strong>narrative analysis</strong> and <strong>triangulation techniques</strong>. Developed a multi-dimensional framework to help emerging startups navigate the high-risk <strong>"Valley of Death"</strong> phase.<br>
+                <strong>Key Learnings:</strong> Business Strategy, Narrative Analysis, Triangulation Technique, Startup Dynamics, Framework Development, Data Provenance
+              </p>
+            </li>
+            
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Research Assistant, Integrated Media Systems Center, University of Southern California</h4>
+              <span>May 2024 – Present</span>
+              <p class="timeline-text">
+                Automated patient data retrieval from Fitbit via OAuth 2.0. Developed compliance metrics and METs score computation. Resolved data loss issues to enhance data reliability in medical research.<br>
+                <strong>Key Learnings:</strong> FastAPI, Python, OAuth 2.0, Data Automation, Health Analytics
+              </p>
+            </li>
+
+            
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Data Science and UI/UX Intern, Wikimedia Foundation (via Outreachy)</h4>
+              <span>June 2023 – August 2023</span>
+              <p class="timeline-text">
+                Analyzed 1.6M translations from 150,000 translators to inform Wikimedia’s strategy. Created a research repository and optimized large-scale data pipelines for statistical evaluation.<br>
+                <strong>Key Learnings:</strong> Python, Data Analytics, Data Visualization, UI/UX Research
+              </p>
+            </li>
+            
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Software Engineer Intern, Beyond Exams</h4>
+              <span>January 2023 – May 2023</span>
+              <p class="timeline-text">
+                Built a multilingual YouTube Dubbing Platform using ReactJS and Amazon S3. Designed audio processing pipelines for audio segmentation and optimized media storage.<br>
+                <strong>Key Learnings:</strong> ReactJS, MySQL, Amazon S3, Audio Processing
+              </p>
+            </li>
+            
+          </ol>
+      
+        </section>
+      
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Publications</h3>
+          </div>
+      
+          <ol class="timeline-list">
+            
+              <p class="timeline-text">
+                Abhishek Bhardwaj, Arpita Kesharwani, Prof Mahima Kaushik. (2024). Comparative Analysis of 2D and 3D Aptamer Structure Prediction Softwares(Under Writing).
+              </p>
+            </li>
+          </ol>
+      
+        </section>
+      
+        
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Achievements</h3>
+          </div>
+      
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Accepted into Summer 2023 cohort of the Outreachy (acceptance rate < 2.5%).
+              </p>
+            </li>
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Nominated by Delhi University for the Australian National University’s Future Research Talent Awards.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <p class="timeline-text">
+                Secured All India Rank 144 in Delhi University Entrance Test, outperforming over 10,000 applicants.
+              </p>
+            </li>
+          </ol>
+      
+        </section>
+      
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills</h3>
+      
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web Technologies</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Data Science & Machine Learning</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+      
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Research Skills</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+            </li>
+      
+          </ul>
+      
+        </section>
+      
+      </article>
+      
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+      
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Research</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Programming</button>
+            </li>
+          </ul>
+      
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+      
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Research</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Programming</button>
+              </li>
+            </ul>
+          </div>
+      
+          <ul class="project-list">
+            <!-- Research Projects -->
+
+            <li class="project-item active" data-filter-item data-category="research">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/mandelbrot.png" alt="Visualization of the Mandelbrot in 3D: The Mandelbulb Fractal" loading="lazy">
+                </figure>
+                <h3 class="project-title">Visualization of the Mandelbrot in 3D: The Mandelbulb Fractal</h3>
+                <p class="project-category">Research</p>
+              </a>
+            </li>
+
+
+            <li class="project-item active" data-filter-item data-category="research">
+              <a href="https://github.com/KesharwaniArpita/Cricketer-Retirement-Prediction">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="Cricketer’s Retirement Age Prediction" loading="lazy">
+                </figure>
+                <h3 class="project-title">Cricketer’s Retirement Age Prediction</h3>
+                <p class="project-category">Research</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="research">
+              <a href="https://github.com/KesharwaniArpita/Adversarial-Attack_Model">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Adversarial attacks in ML" loading="lazy">
+                </figure>
+                <h3 class="project-title">Adversarial Attacks in ML/AI</h3>
+                <p class="project-category">Research</p>
+              </a>
+            </li> 
+
+            <li class="project-item active" data-filter-item data-category="facial recognition">
+              <a href="https://github.com/KesharwaniArpita/Facial-Recognition-Using-Principal-Component-Analysis">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-5.png" alt="Facial Recognition Using MATLAB" loading="lazy">
+                </figure>
+                <h3 class="project-title">Facial Recognition Using MATLAB</h3>
+                <p class="project-category">Facial Recognition</p>
+              </a>
+            </li>
+      
+            <!-- Programming Projects -->
+            <li class="project-item active" data-filter-item data-category="programming">
+              <a href="https://github.com/KesharwaniArpita/mazes-with-dijkstra-and-A-">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/blog-3.jpg" alt="Path-time Analysis" loading="lazy">
+                </figure>
+                <h3 class="project-title">Path-time Analysis</h3>
+                <p class="project-category">Programming</p>
+              </a>
+            </li>
+      
+            <li class="project-item active" data-filter-item data-category="programming">
+              <a href="https://github.com/KesharwaniArpita/Game-X">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-9.png" alt="GameX" loading="lazy">
+                </figure>
+                <h3 class="project-title">GameX</h3>
+                <p class="project-category">Programming</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="geospatial analysis">
+              <a href="https://github.com/KesharwaniArpita/LULC-Wayanad-Nilgiri">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="Land-Use and Land-Cover Classification" loading="lazy">
+                </figure>
+                <h3 class="project-title">Land-Use and Land-Cover Classification</h3>
+                <p class="project-category">Geospatial Analysis</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="education">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-2.png" alt="Lecture on Finite Difference Method" loading="lazy">
+                </figure>
+                <h3 class="project-title">Lecture on Finite Difference Method</h3>
+                <p class="project-category">Education</p>
+              </a>
+            </li>
+      
+          </ul>
+        </section>
+      </article>
+      
+      
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
